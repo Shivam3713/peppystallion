@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #017777;
+}
+.bbb {
+  background-image: url(../src/static/media/Road/Road0001.png);
+  background-position: 50%;
+  background-size: cover
+}
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
