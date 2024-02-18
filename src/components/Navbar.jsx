@@ -19,32 +19,32 @@ const Navbar = () => {
                 <Link to="video" spy
                   smooth
                   offset={-70}
-                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium ">Home</Link>
+                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer ">Home</Link>
                 <Link to="about" spy
                   smooth
                   offset={-45}
-                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium">About</Link>
+                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer">About</Link>
                 <Link to="team" spy
                   smooth
                   offset={-40}
-                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium">Team</Link>
+                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer">Team</Link>
                 <Link to="vision" spy
                   smooth
                   offset={-70}
-                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium">Vision</Link>
+                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer">Vision</Link>
                 <Link to="faq" spy
                   smooth
                   offset={-120}
-                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium">FAQs</Link>
+                  duration={800} className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer">FAQs</Link>
                 <div className="border border-[#8cc1c1] rounded-md bg-[#8cc1c1] p-3 flex items-center space-x-5 h-10">
-                  <a href="https://twitter.com/PeppyStallion" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
-                    <img src={twitter} alt="Twitter" className="h-8 w-8" />
+                  <a href="https://twitter.com/PeppyStallion" target="_blank" rel="noopener noreferrer" className="cursor-pointer 	">
+                    <img src={twitter} alt="Twitter" className="h-8 w-8 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
                   </a>
                   <a href="https://discord.gg/ZdHeY4pVUY" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
-                    <img src={discord} alt="Discord" className="h-7 w-7" />
+                    <img src={discord} alt="Discord" className="h-7 w-7 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
                   </a>
                   <a href="https://opensea.io" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
-                    <img src={opensea} alt="OpenSea" className="h-7 w-7" />
+                    <img src={opensea} alt="OpenSea" className="h-7 w-7 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
                   </a>
                 </div>
               </div>
