@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from 'react';
 import videoSource from '../static/media/HomePage.mov'; // Assuming correct format
-
 const Video = () => {
   const videoRef = useRef(null);
 
@@ -30,10 +29,13 @@ const Video = () => {
   }, []);
 
   return (
-    <div class="h-auto pt-20" id="home"><video class="videoTag h-auto" autoplay="" loop="">
-      <source src={videoSource} type="video/mp4"/></video>
-      </div>
+    <div class="h-auto pt-20" id="video">
+    <video ref={videoRef} className="videoTag h-auto" muted id='video'>
+      <source src={videoSource} type="video/mp4" />
+    </video>
+    </div>
   );
+
 };
 
 export default Video;

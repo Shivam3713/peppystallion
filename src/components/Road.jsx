@@ -83,7 +83,7 @@ const Road = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-3xl font-semibold text-gray-900 dark:text-white pl-4">Progress @ 25% </h3>
-            <p className="mb-4 pl-4 text-lg font-normal text-gray-500 dark:text-gray-300">5% of primary sales will be donated to the Education Fund.</p>
+            <p className="mb-4 pl-4 text-lg font-normal text-gray-500 dark:text-gray-300">The sum amount will be allocated among the NFT artists and team members contributing to the project.</p>
           </li>
           <li className="mb-10 ml-6">
             <span className="absolute flex items-center justify-center w-7 h-7 bg-blue-100 rounded-full -left-3 ring-[16px] ring-[#c04040] dark:ring-gray-900 dark:bg-[#c04040]">
@@ -92,7 +92,15 @@ const Road = () => {
               </svg>
             </span>
             <h3 className="mb-1 text-3xl pl-4 font-semibold text-gray-900 dark:text-white">Progress @ 50%</h3>
-            <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">5% of primary sales will be donated to the Education Fund</p>
+            <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">
+  SAMABHAVA: Supports abandoned animals through adoption, education, and donations. Connect for animal welfare. 
+  Visit {' '}
+  <a href="https://samabhava.org/cms/" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+    SAMABHAVA
+  </a>
+</p>
+
+
           </li>
           <li className="mb-10 ml-6">
             <span className="absolute flex items-center justify-center w-7 h-7 bg-blue-100 rounded-full -left-3 ring-[16px] ring-[#c04040] dark:ring-gray-900 dark:bg-[#c04040]">
@@ -101,7 +109,7 @@ const Road = () => {
               </svg>
             </span>
             <h3 className="mb-1 text-3xl pl-4 font-semibold text-gray-900 dark:text-white">Progress @ 75%</h3>
-            <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">5% of primary sales will be donated to the Education Fund</p>
+            <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">Will be launching a catchy comic about Peppy Stallion</p>
           </li>
           <li className="mb-10 ml-6">
             <span className="absolute flex items-center justify-center w-7 h-7 bg-blue-100 rounded-full -left-3 ring-[16px] ring-[#c04040] dark:ring-gray-900 dark:bg-[#c04040]">
@@ -110,7 +118,7 @@ const Road = () => {
               </svg>
             </span>
             <h3 className="mb-1 text-3xl pl-4 font-semibold text-gray-900 dark:text-white">Progress @ 100%</h3>
-            <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">5% of primary sales will be donated to the Education Fund</p>
+            <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">Will be disclosed soon (something big coming up)</p>
           </li>
         </ol>
       </div>
