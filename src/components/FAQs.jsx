@@ -13,7 +13,7 @@ const FAQs = () => {
             <div className="text-white text-2xl">
               <div>
                 <details className="p-4 rounded-lg">
-                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg">What is Peppy Stallion?</summary>
+                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg cursor-pointer">What is Peppy Stallion?</summary>
                   <div className="py-2 px-4 mx-7 border-l-[2px] border-b-[2px] border-r-[2px] rounded-b-xl">
                     <p className="text-base leading-6 text-white">
                       Peppy Stallion is a character developed by a group of zoophiles. It consists of 10,000 supplies in ERC-721 blockchain. Each token consisting of a unique trait which is created in Procreate.
@@ -21,7 +21,7 @@ const FAQs = () => {
                   </div>
                 </details>
                 <details className="p-4 rounded-lg">
-                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg">What is our commitment?</summary>
+                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg cursor-pointer">What is our commitment?</summary>
                   <div className="py-2 px-4 mx-7 border-l-[2px] border-b-[2px] border-r-[2px] rounded-b-xl">
                     <p className="text-base leading-6 text-white">
                       Peppy stallion is committed to making a difference in the lives of working animals. We work in the protection, well-being, and welfare of animals, as well as creating awareness among individuals regarding the rights of animals to live in peace, health, and dignity in the same manner as human beings.
@@ -29,7 +29,7 @@ const FAQs = () => {
                   </div>
                 </details>
                 <details className="p-4 rounded-lg">
-                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg">What is Digital Comics?</summary>
+                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg cursor-pointer">What is Digital Comics?</summary>
                   <div className="py-2 px-4 mx-7 border-l-[2px] border-b-[2px] border-r-[2px] rounded-b-xl">
                     <p className="text-base leading-6 text-white">
                       A digital comic series is going to be published showcasing the story of Peppy Stallion for the community.
@@ -37,7 +37,7 @@ const FAQs = () => {
                   </div>
                 </details>
                 <details className="p-4 rounded-lg">
-                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg">What is Peppy Stallion game?</summary>
+                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg cursor-pointer">What is Peppy Stallion game?</summary>
                   <div className="py-2 px-4 mx-7 border-l-[2px] border-b-[2px] border-r-[2px] rounded-b-xl">
                     <p className="text-base leading-6 text-white">
                       Yes, we are working on it and it's going to be adventurous.
@@ -45,7 +45,7 @@ const FAQs = () => {
                   </div>
                 </details>
                 <details className="p-4 rounded-lg">
-                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg">How many traits have been used?</summary>
+                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg cursor-pointer">How many traits have been used?</summary>
                   <div className="py-2 px-4 mx-7 border-l-[2px] border-b-[2px] border-r-[2px] rounded-b-xl">
                     <p className="text-base leading-6 text-white">
                       A total sum of 700 unique traits including Skin, Expressions, Cloths, Accessories, Hair Types, and Backgrounds are designed.
@@ -53,7 +53,7 @@ const FAQs = () => {
                   </div>
                 </details>
                 <details className="p-4 rounded-lg">
-                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg">How do I contact the team?</summary>
+                  <summary className="font-semibold bg-[#BF4040] rounded-full px-4 py-2 text-lg cursor-pointer">How do I contact the team?</summary>
                   <div className="py-2 px-4 mx-7 border-l-[2px] border-b-[2px] border-r-[2px] rounded-b-xl">
                     <p className="text-base leading-6 text-white">
                       We kindly request you to open a ticket in Discord - <a target="_blank" rel="noopener" href="https://discord.gg/gs9H24AgeX">link</a>

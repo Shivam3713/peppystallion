@@ -93,12 +93,12 @@ const Road = () => {
             </span>
             <h3 className="mb-1 text-3xl pl-4 font-semibold text-gray-900 dark:text-white">Progress @ 50%</h3>
             <p className="text-lg pl-4 font-normal text-gray-500 dark:text-gray-300">
-  SAMABHAVA: Supports abandoned animals through adoption, education, and donations. Connect for animal welfare. 
-  Visit {' '}
-  <a href="https://samabhava.org/cms/" target="_blank" rel="noopener noreferrer" className="text-blue-500">
-    SAMABHAVA
-  </a>
-</p>
+              SAMABHAVA: Supports abandoned animals through adoption, education, and donations. Connect for animal welfare.
+              Visit {' '}
+              <a href="https://samabhava.org/cms/" target="_blank" rel="noopener noreferrer" className="text-blue-500">
+                SAMABHAVA
+              </a>
+            </p>
 
 
           </li>
