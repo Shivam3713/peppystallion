@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Logo_01 from '../static/media/Logo_01.png'
 import opensea from '../static/media/social-icon/opensea.png';
 import discord from '../static/media/social-icon/discord.png';
 import twitter from '../static/media/social-icon/twitter.png';
 import { Link } from 'react-scroll';
 const Navbar = () => {
+  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!isMobileMenuOpen);
+  };
 
   return (
     <nav className="z-10 w-full fixed bg-[#017777]">
@@ -51,11 +56,12 @@ const Navbar = () => {
             </div>
           </div>
           <div className="-mr-2 flex md:hidden">
-            <button
+          <button
               type="button"
+              onClick={toggleMobileMenu}
               className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
-              aria-expanded="false"
+              aria-expanded={isMobileMenuOpen}
             >
               <span className="sr-only">Open main menu</span>
               <svg
@@ -72,6 +78,73 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {isMobileMenuOpen && (
+        <div className="md:hidden">
+          <div className="flex flex-col items-center space-y-4 mt-4">
+            <Link
+              to="video"
+              spy
+              smooth
+              offset={-70}
+              duration={800}
+              className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer"
+            >
+              Home
+            </Link>
+            <Link
+              to="about"
+              spy
+              smooth
+              offset={-45}
+              duration={800}
+              className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer"
+            >
+              About
+            </Link>
+            <Link
+              to="team"
+              spy
+              smooth
+              offset={-40}
+              duration={800}
+              className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer"
+            >
+              Team
+            </Link>
+            <Link
+              to="vision"
+              spy
+              smooth
+              offset={-70}
+              duration={800}
+              className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer"
+            >
+              Vision
+            </Link>
+            <Link
+              to="faq"
+              spy
+              smooth
+              offset={-120}
+              duration={800}
+              className="text-white hover:bg-[#BF4040] hover:text-white px-3 py-2 rounded-md text-lg font-medium cursor-pointer"
+            >
+              FAQs
+            </Link>
+            <div className="border border-[#8cc1c1] rounded-md bg-[#8cc1c1] p-3 flex items-center space-x-5 h-10">
+              <a href="https://twitter.com/PeppyStallion" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <img src={twitter} alt="Twitter" className="h-8 w-8 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
+              </a>
+              <a href="https://discord.gg/ZdHeY4pVUY" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <img src={discord} alt="Discord" className="h-7 w-7 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
+              </a>
+              <a href="https://opensea.io" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                <img src={opensea} alt="OpenSea" className="h-7 w-7 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
     </nav>
   );
 };

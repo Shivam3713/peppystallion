@@ -30,9 +30,9 @@ const Video = () => {
   }, []);
 
   return (
-    <video ref={videoRef} className="videoTag h-auto" muted id='video'>
-      <source src={videoSource} type="video/mp4" />
-    </video>
+    <div class="h-auto pt-20" id="home"><video class="videoTag h-auto" autoplay="" loop="">
+      <source src={videoSource} type="video/mp4"/></video>
+      </div>
   );
 };
 
