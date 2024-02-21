@@ -45,10 +45,10 @@ const Navbar = () => {
                   <a href="https://twitter.com/PeppyStallion" target="_blank" rel="noopener noreferrer" className="cursor-pointer 	">
                     <img src={twitter} alt="Twitter" className="h-8 w-8 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
                   </a>
-                  <a href="https://discord.gg/ZdHeY4pVUY" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  <a href="https://discord.gg/TTnxFk8yFM" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
                     <img src={discord} alt="Discord" className="h-7 w-7 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
                   </a>
-                  <a href="https://opensea.io" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
+                  <a href="https://opensea.io/PeppyStallion" target="_blank" rel="noopener noreferrer" className="cursor-pointer">
                     <img src={opensea} alt="OpenSea" className="h-7 w-7 relative inline-block overflow-hidden transform transition-transform duration-300 hover:scale-110" />
                   </a>
                 </div>
